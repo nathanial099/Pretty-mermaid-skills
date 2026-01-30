@@ -25,7 +25,7 @@
 
 ### 一键安装
 ```bash
-npx skills add https://github.com/intellectronica/agent-skills --skill Pretty-mermaid
+npx skills add https://github.com/imxv/Preety-mermaid-skills
 ```
 
 ### 验证安装
